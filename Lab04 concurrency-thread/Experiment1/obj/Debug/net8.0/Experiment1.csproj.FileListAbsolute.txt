@@ -12,3 +12,4 @@ D:\KMITL\Year3 1st\Operating System\Lab04 concurrency-thread\Experiment1\obj\Deb
 D:\KMITL\Year3 1st\Operating System\Lab04 concurrency-thread\Experiment1\obj\Debug\net8.0\Experiment1.pdb
 D:\KMITL\Year3 1st\Operating System\Lab04 concurrency-thread\Experiment1\obj\Debug\net8.0\Experiment1.genruntimeconfig.cache
 D:\KMITL\Year3 1st\Operating System\Lab04 concurrency-thread\Experiment1\obj\Debug\net8.0\ref\Experiment1.dll
+D:\KMITL\Year3 1st\Operating System\Lab04 concurrency-thread\Experiment1\obj\Debug\net8.0\Experiment1.sourcelink.json
