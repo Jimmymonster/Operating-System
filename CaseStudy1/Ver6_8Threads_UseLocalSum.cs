@@ -10,7 +10,7 @@ namespace Problem01
     class Program
     {
         static byte[] Data_Global = new byte[1000000000];
-        static long s1 = 0, s2 = 0, s3 = 0, s4 = 0, s5 = 0, s6 = 0, s7 = 0, s8 = 0;
+        static long sumAll = 0;
         // static int G_index = 0;
 
 
@@ -38,203 +38,211 @@ namespace Problem01
         }
         static void sum1()
         {
-            int G_index = 0;
+            int G_index = 0, tmp = 0;
             for (int i = 0; i < 125000000; i++)
             {
                 if (Data_Global[G_index] % 2 == 0)
                 {
-                    s1 -= Data_Global[G_index];
+                    tmp -= Data_Global[G_index];
                 }
                 else if (Data_Global[G_index] % 3 == 0)
                 {
-                    s1 += (Data_Global[G_index] * 2);
+                    tmp += (Data_Global[G_index] * 2);
                 }
                 else if (Data_Global[G_index] % 5 == 0)
                 {
-                    s1 += (Data_Global[G_index] / 2);
+                    tmp += (Data_Global[G_index] / 2);
                 }
                 else if (Data_Global[G_index] % 7 == 0)
                 {
-                    s1 += (Data_Global[G_index] / 3);
+                    tmp += (Data_Global[G_index] / 3);
                 }
                 Data_Global[G_index] = 0;
                 G_index += 8;
             }
+            sumAll += tmp;
         }
         static void sum2()
         {
-            int G_index = 1;
+            int G_index = 1, tmp = 0;
             for (int i = 0; i < 125000000; i++)
             {
                 if (Data_Global[G_index] % 2 == 0)
                 {
-                    s2 -= Data_Global[G_index];
+                    tmp -= Data_Global[G_index];
                 }
                 else if (Data_Global[G_index] % 3 == 0)
                 {
-                    s2 += (Data_Global[G_index] * 2);
+                    tmp += (Data_Global[G_index] * 2);
                 }
                 else if (Data_Global[G_index] % 5 == 0)
                 {
-                    s2 += (Data_Global[G_index] / 2);
+                    tmp += (Data_Global[G_index] / 2);
                 }
                 else if (Data_Global[G_index] % 7 == 0)
                 {
-                    s2 += (Data_Global[G_index] / 3);
+                    tmp += (Data_Global[G_index] / 3);
                 }
                 Data_Global[G_index] = 0;
                 G_index += 8;
             }
+            sumAll += tmp;
         }
         static void sum3()
         {
-            int G_index = 2;
+            int G_index = 2, tmp = 0;
             for (int i = 0; i < 125000000; i++)
             {
                 if (Data_Global[G_index] % 2 == 0)
                 {
-                    s3 -= Data_Global[G_index];
+                    tmp -= Data_Global[G_index];
                 }
                 else if (Data_Global[G_index] % 3 == 0)
                 {
-                    s3 += (Data_Global[G_index] * 2);
+                    tmp += (Data_Global[G_index] * 2);
                 }
                 else if (Data_Global[G_index] % 5 == 0)
                 {
-                    s3 += (Data_Global[G_index] / 2);
+                    tmp += (Data_Global[G_index] / 2);
                 }
                 else if (Data_Global[G_index] % 7 == 0)
                 {
-                    s3 += (Data_Global[G_index] / 3);
+                    tmp += (Data_Global[G_index] / 3);
                 }
                 Data_Global[G_index] = 0;
                 G_index += 8;
             }
+            sumAll += tmp;
         }
         static void sum4()
         {
-            int G_index = 3;
+            int G_index = 3, tmp = 0;
             for (int i = 0; i < 125000000; i++)
             {
                 if (Data_Global[G_index] % 2 == 0)
                 {
-                    s4 -= Data_Global[G_index];
+                    tmp -= Data_Global[G_index];
                 }
                 else if (Data_Global[G_index] % 3 == 0)
                 {
-                    s4 += (Data_Global[G_index] * 2);
+                    tmp += (Data_Global[G_index] * 2);
                 }
                 else if (Data_Global[G_index] % 5 == 0)
                 {
-                    s4 += (Data_Global[G_index] / 2);
+                    tmp += (Data_Global[G_index] / 2);
                 }
                 else if (Data_Global[G_index] % 7 == 0)
                 {
-                    s4 += (Data_Global[G_index] / 3);
+                    tmp += (Data_Global[G_index] / 3);
                 }
                 Data_Global[G_index] = 0;
                 G_index += 8;
             }
+            sumAll += tmp;
         }
         static void sum5()
         {
-            int G_index = 4;
+            int G_index = 4, tmp = 0;
             for (int i = 0; i < 125000000; i++)
             {
                 if (Data_Global[G_index] % 2 == 0)
                 {
-                    s5 -= Data_Global[G_index];
+                    tmp -= Data_Global[G_index];
                 }
                 else if (Data_Global[G_index] % 3 == 0)
                 {
-                    s5 += (Data_Global[G_index] * 2);
+                    tmp += (Data_Global[G_index] * 2);
                 }
                 else if (Data_Global[G_index] % 5 == 0)
                 {
-                    s5 += (Data_Global[G_index] / 2);
+                    tmp += (Data_Global[G_index] / 2);
                 }
                 else if (Data_Global[G_index] % 7 == 0)
                 {
-                    s5 += (Data_Global[G_index] / 3);
+                    tmp += (Data_Global[G_index] / 3);
                 }
                 Data_Global[G_index] = 0;
                 G_index += 8;
             }
+            sumAll += tmp;
         }
         static void sum6()
         {
-            int G_index = 5;
+            int G_index = 5, tmp = 0;
             for (int i = 0; i < 125000000; i++)
             {
                 if (Data_Global[G_index] % 2 == 0)
                 {
-                    s6 -= Data_Global[G_index];
+                    tmp -= Data_Global[G_index];
                 }
                 else if (Data_Global[G_index] % 3 == 0)
                 {
-                    s6 += (Data_Global[G_index] * 2);
+                    tmp += (Data_Global[G_index] * 2);
                 }
                 else if (Data_Global[G_index] % 5 == 0)
                 {
-                    s6 += (Data_Global[G_index] / 2);
+                    tmp += (Data_Global[G_index] / 2);
                 }
                 else if (Data_Global[G_index] % 7 == 0)
                 {
-                    s6 += (Data_Global[G_index] / 3);
+                    tmp += (Data_Global[G_index] / 3);
                 }
                 Data_Global[G_index] = 0;
                 G_index += 8;
             }
+            sumAll += tmp;
         }
         static void sum7()
         {
-            int G_index = 6;
+            int G_index = 6, tmp = 0;
             for (int i = 0; i < 125000000; i++)
             {
                 if (Data_Global[G_index] % 2 == 0)
                 {
-                    s7 -= Data_Global[G_index];
+                    tmp -= Data_Global[G_index];
                 }
                 else if (Data_Global[G_index] % 3 == 0)
                 {
-                    s7 += (Data_Global[G_index] * 2);
+                    tmp += (Data_Global[G_index] * 2);
                 }
                 else if (Data_Global[G_index] % 5 == 0)
                 {
-                    s7 += (Data_Global[G_index] / 2);
+                    tmp += (Data_Global[G_index] / 2);
                 }
                 else if (Data_Global[G_index] % 7 == 0)
                 {
-                    s7 += (Data_Global[G_index] / 3);
+                    tmp += (Data_Global[G_index] / 3);
                 }
                 Data_Global[G_index] = 0;
                 G_index += 8;
             }
+            sumAll += tmp;
         }
         static void sum8()
         {
-            int G_index = 7;
+            int G_index = 7, tmp = 0;
             for (int i = 0; i < 125000000; i++)
             {
                 if (Data_Global[G_index] % 2 == 0)
                 {
-                    s8 -= Data_Global[G_index];
+                    tmp -= Data_Global[G_index];
                 }
                 else if (Data_Global[G_index] % 3 == 0)
                 {
-                    s8 += (Data_Global[G_index] * 2);
+                    tmp += (Data_Global[G_index] * 2);
                 }
                 else if (Data_Global[G_index] % 5 == 0)
                 {
-                    s8 += (Data_Global[G_index] / 2);
+                    tmp += (Data_Global[G_index] / 2);
                 }
                 else if (Data_Global[G_index] % 7 == 0)
                 {
-                    s8 += (Data_Global[G_index] / 3);
+                    tmp += (Data_Global[G_index] / 3);
                 }
                 Data_Global[G_index] = 0;
                 G_index += 8;
             }
+            sumAll += tmp;
         }
         static void Main(string[] args)
         {
@@ -263,7 +271,7 @@ namespace Problem01
             Console.WriteLine("Done.");
 
             /* Result */
-            Console.WriteLine("Summation result: {0}", s1 + s2 + s3 + s4 + s5 + s6 + s7 + s8);
+            Console.WriteLine("Summation result: {0}", sumAll);
             Console.WriteLine("Time used: " + sw.ElapsedMilliseconds.ToString() + "ms");
         }
     }
