@@ -13,7 +13,7 @@
 //         static long Sum_Global = 0;
 //         static int G_index = 0;
 
-//         const int numberOfThread = 4;
+//         const int numberOfThread = 16;
 
 //         static int ReadData()
 //         {

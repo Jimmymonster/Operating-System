@@ -9,7 +9,7 @@
 // {
 //     class Program
 //     {
-//         const int numberOfThread = 6;
+//         const int numberOfThread = 16;
 //         const int dataCount = 1000000000;
 //         static byte[] Data_Global = new byte[1000000000];
 //         static long[] Sum_Global = new long[numberOfThread];
