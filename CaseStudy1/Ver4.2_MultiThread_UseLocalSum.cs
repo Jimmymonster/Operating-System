@@ -11,7 +11,7 @@
 //     {
 //         static byte[] Data_Global = new byte[1000000000];
 //         static long sumAll = 0;
-//         // static int G_index = 0;
+//         static int G_index = 0;
 
 
 //         static int ReadData()
