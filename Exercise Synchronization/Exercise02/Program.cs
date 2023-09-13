@@ -16,7 +16,7 @@ namespace Exercise02{
         }
         static void minus(){
             int i;
-            for(i=0;i<1000001;i++){
+            for(i=0;i<1000000;i++){
                 lock(_Lock){
                     sum-=i;
                 }

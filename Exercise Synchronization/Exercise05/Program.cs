@@ -7,10 +7,18 @@ namespace Exercise04{
         private static string x="";
         private static int exitflag=0;
         private static int updateFlag=0;
+        private static int rubInput=1;
+        private static object _Lock = new object();
         static void ThReadX(object i){
-            while(exitflag=0) {
-                if(x!="exit"){
-                    Console.WriteLine("***Thread {0} : x={1}***",i,x);
+            while(exitflag==0) {
+                while(rubInput==0){
+                    lock(_Lock){
+                        if(x!="exit"){
+                            Console.WriteLine("***Thread {0} : x={1}***",i,x);
+                        
+                        }
+                        rubInput=1;
+                    }
                 }
             }
             Console.WriteLine("---Thread {0} exit---",i);
@@ -18,10 +26,16 @@ namespace Exercise04{
         static void ThWriteX(){
             string xx;
             while(exitflag==0){
-                Console.WriteLine("Input: ");
-                xx=Console.ReadLine();
-                if(xx=='exit') exitflag=1;
-                x=xx;
+                while(rubInput==1){
+                    lock(_Lock){
+                        rubInput=0;
+                        Console.Write("Input: ");
+                        xx=Console.ReadLine();
+                        if(xx=="exit") exitflag=1;
+                        x=xx;
+                    }
+                }
+                
             }
         }
         static void Main(string[] args){
