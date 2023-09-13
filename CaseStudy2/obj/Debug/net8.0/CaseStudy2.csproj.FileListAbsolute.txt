@@ -1,0 +1,15 @@
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\bin\Debug\net8.0\CaseStudy2.exe
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\bin\Debug\net8.0\CaseStudy2.deps.json
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\bin\Debug\net8.0\CaseStudy2.runtimeconfig.json
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\bin\Debug\net8.0\CaseStudy2.dll
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\bin\Debug\net8.0\CaseStudy2.pdb
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\obj\Debug\net8.0\CaseStudy2.GeneratedMSBuildEditorConfig.editorconfig
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\obj\Debug\net8.0\CaseStudy2.AssemblyInfoInputs.cache
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\obj\Debug\net8.0\CaseStudy2.AssemblyInfo.cs
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\obj\Debug\net8.0\CaseStudy2.csproj.CoreCompileInputs.cache
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\obj\Debug\net8.0\CaseStudy2.sourcelink.json
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\obj\Debug\net8.0\CaseStudy2.dll
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\obj\Debug\net8.0\refint\CaseStudy2.dll
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\obj\Debug\net8.0\CaseStudy2.pdb
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\obj\Debug\net8.0\CaseStudy2.genruntimeconfig.cache
+D:\KMITL\Year3 1st\Operating System\CaseStudy2\obj\Debug\net8.0\ref\CaseStudy2.dll
